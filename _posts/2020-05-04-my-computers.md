@@ -2,7 +2,6 @@
 layout: post
 title: My Computers
 subtitle: A Brief History
-cover-img: /assets/img/path.jpg
 tags: [computing, bio]
 ---
 
