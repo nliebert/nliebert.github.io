@@ -11,13 +11,13 @@ ARTPROC is my oldest ongoing project.
 
 The main program isn't anything spectacular. There's a QB64 [InForm](https://www.qb64.org/inform/) GUI loaded with buttons that allows me to run compiled [Processing](https://processing.org) sketches with the click of a button.
 
-```REALbasic
+``` REALbasic
   SHELL "start mondrian.exe"
 ```
 
 The above code executes *mondrian.exe* until the *mondrian.exe* window is closed. It's not fancy, but it works. The real trick is in the Processing code.
 
-```Processing
+``` Processing
 void draw() {
   background(255);
   for(int i = 0; i < num_lines; i++) {
